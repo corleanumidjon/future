@@ -1,0 +1,36 @@
+.container {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 16px 20px;
+  font-family: "Montserrat", normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.orange {
+  box-shadow: 1px 1px 10px #f7941d;
+  &:hover {
+    box-shadow: 1px 1px 15px 5px #27aae1;
+  }
+  &:active {
+    box-shadow: 1px 1px 10px #f7941d;
+  }
+}
+.blue {
+  box-shadow: 1px 1px 10px #27aae1;
+  &:hover {
+    box-shadow: 1px 1px 15px 5px #f7941d;
+  }
+  &:active {
+    box-shadow: 1px 1px 10px #27aae1;
+  }
+}

@@ -1,0 +1,149 @@
+.chess {
+  &__hero {
+    width: 100%;
+    height: 480px;
+    color: #ffffff;
+    background-image: url(../../Assets/Imgs/chess-hero.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 100px;
+    &-title {
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 51px;
+      padding-top: 39px;
+    }
+    &-title4 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      padding: 11px 0 37px;
+    }
+    &-texts {
+      display: flex;
+      align-items: center;
+    }
+    &-text2 {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 0 0 42px 33px;
+    }
+    &-text2:nth-child(1) {
+      width: 135px;
+    }
+    &-text2:nth-child(2) {
+      width: 300px;
+    }
+    &-titles {
+      display: flex;
+      flex-direction: column;
+      row-gap: 33px;
+    }
+    &-title3 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 34px;
+      padding-left: 46px;
+    }
+    &-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 12px 0 24px;
+    }
+    &-btn {
+      font-family: "Montserrat", normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+      background-color: #f7941d;
+      border: none;
+      border-radius: 6px;
+      padding: 13px 20px;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 1px 1px 10px #f7941d;
+      }
+      &:active {
+        box-shadow: none;
+      }
+    }
+  }
+  &__sect {
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+    &-img {
+      position: absolute;
+    }
+    &-text {
+      position: relative;
+      top: 30px;
+      left: 70px;
+      width: 280px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &-list {
+      display: flex;
+      gap: 25px;
+    }
+    &-item {
+      width: 175px;
+    }
+    &-title-l {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      margin: 17px 0 14px;
+    }
+    &-text-l {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &-video {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../../Assets/Imgs/Group.svg);
+      background-repeat: no-repeat;
+      background-position: top center;
+      padding: 77px 0 155px;
+    }
+    &-box2 {
+      margin-bottom: 60px;
+    }
+    &-title2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 34px;
+    }
+    &-text2 {
+      width: 888px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      margin: 20px 0 50px;
+    }
+    &-list2 {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-item2 {
+      width: 180px;
+    }
+    &-text-l2 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 16px;
+    }
+  }
+}
